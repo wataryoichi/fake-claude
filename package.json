@@ -1,6 +1,6 @@
 {
   "name": "fake-claude",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "A parody CLI that simulates looking busy with an AI coding assistant 🤫 (unofficial joke, not affiliated with Anthropic)",
   "main": "dist/index.js",
   "bin": {
