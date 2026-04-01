@@ -4,7 +4,8 @@ import { pick, sleep, randInt } from './utils.js';
 export async function showThinking(): Promise<void> {
   const topics = pick(THINKING_TOPICS);
 
-  console.log(`\x1b[2m  Thinking...\x1b[0m`);
+  const labels = ['Thinking...', 'Pretending to think...', 'Pondering deeply...', 'Hmm...', 'Faking it...'];
+  console.log(`\x1b[2m  ${pick(labels)}\x1b[0m`);
   await sleep(randInt(500, 1000));
 
   for (let i = 0; i < topics.length; i++) {

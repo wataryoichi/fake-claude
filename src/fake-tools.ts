@@ -11,20 +11,20 @@ function fakeFilePath(): string {
 function fakeToolCall(): string {
   const tool = pick(TOOL_NAMES);
   switch (tool) {
-    case 'Read':
-      return `\x1b[36m● Read\x1b[0m ${fakeFilePath()}`;
-    case 'Edit':
-      return `\x1b[36m● Edit\x1b[0m ${fakeFilePath()}`;
-    case 'Write':
-      return `\x1b[36m● Write\x1b[0m ${fakeFilePath()}`;
-    case 'Bash':
-      return `\x1b[36m● Bash\x1b[0m ${pick(BASH_COMMANDS)}`;
-    case 'Grep':
-      return `\x1b[36m● Grep\x1b[0m "${pick(GREP_PATTERNS)}" in ${pick(DIRECTORIES)}/**/*`;
-    case 'Glob':
-      return `\x1b[36m● Glob\x1b[0m ${pick(DIRECTORIES)}/**/*${pick(FILE_EXTENSIONS)}`;
+    case 'Peek':
+      return `\x1b[36m● Peek\x1b[0m ${fakeFilePath()}`;
+    case 'Tweak':
+      return `\x1b[36m● Tweak\x1b[0m ${fakeFilePath()}`;
+    case 'Scribble':
+      return `\x1b[36m● Scribble\x1b[0m ${fakeFilePath()}`;
+    case 'Zap':
+      return `\x1b[36m● Zap\x1b[0m ${pick(BASH_COMMANDS)}`;
+    case 'Sniff':
+      return `\x1b[36m● Sniff\x1b[0m "${pick(GREP_PATTERNS)}" in ${pick(DIRECTORIES)}/**/*`;
+    case 'Rummage':
+      return `\x1b[36m● Rummage\x1b[0m ${pick(DIRECTORIES)}/**/*${pick(FILE_EXTENSIONS)}`;
     default:
-      return `\x1b[36m● Read\x1b[0m ${fakeFilePath()}`;
+      return `\x1b[36m● Peek\x1b[0m ${fakeFilePath()}`;
   }
 }
 

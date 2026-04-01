@@ -1,7 +1,7 @@
 {
   "name": "fake-claude",
-  "version": "1.0.0",
-  "description": "Pretend to be working hard with Claude Code 🤫",
+  "version": "1.0.1",
+  "description": "A parody CLI that simulates looking busy with an AI coding assistant 🤫 (unofficial joke, not affiliated with Anthropic)",
   "main": "dist/index.js",
   "bin": {
     "fake-claude": "./bin/fake-claude.js"

@@ -10,12 +10,19 @@ let filesRead = 0;
 let linesWritten = 0;
 let startTime = Date.now();
 
+// ── Disclaimer ──
+function printDisclaimer(): void {
+  console.log('\x1b[2mfake-claude — unofficial parody CLI\x1b[0m');
+  console.log('\x1b[2mNot affiliated with Anthropic. This is not Claude Code.\x1b[0m');
+  console.log();
+}
+
 // ── Header ──
 function printHeader(): void {
   const cwd = process.cwd();
-  console.log();
+  printDisclaimer();
   console.log('\x1b[2m╭────────────────────────────────────────────────╮\x1b[0m');
-  console.log('\x1b[2m│\x1b[0m \x1b[35m◆\x1b[0m \x1b[1mClaude Code\x1b[0m                      \x1b[2mv1.0.42\x1b[0m \x1b[2m│\x1b[0m');
+  console.log('\x1b[2m│\x1b[0m \x1b[35m◇\x1b[0m \x1b[1mDefinitely Real AI\x1b[0m              \x1b[2mv0.0.lol\x1b[0m \x1b[2m│\x1b[0m');
   console.log('\x1b[2m│\x1b[0m                                                \x1b[2m│\x1b[0m');
   console.log(`\x1b[2m│\x1b[0m \x1b[2m${cwd.padEnd(46)}\x1b[0m \x1b[2m│\x1b[0m`);
   console.log('\x1b[2m╰────────────────────────────────────────────────╯\x1b[0m');
