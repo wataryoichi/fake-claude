@@ -2,16 +2,22 @@
   "name": "fake-claude",
   "version": "1.0.0",
   "description": "Pretend to be working hard with Claude Code 🤫",
-  "main": "src/index.ts",
+  "main": "dist/index.js",
   "bin": {
     "fake-claude": "./bin/fake-claude.js"
   },
+  "files": [
+    "dist",
+    "bin"
+  ],
   "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build",
     "start": "npx tsx src/index.ts",
     "dev": "npx tsx src/index.ts"
   },
   "keywords": ["cli", "joke", "claude", "fake", "productivity"],
-  "author": "",
+  "author": "wataryoichi",
   "license": "MIT",
   "devDependencies": {
     "@types/node": "^25.5.0",

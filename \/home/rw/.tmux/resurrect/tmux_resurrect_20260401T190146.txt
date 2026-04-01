@@ -1,0 +1,7 @@
+pane	ai	1	1	:*	1	✳ Investigate and resume tmux security review fixes	:/home/rw/src/ai_research_factory	1	claude	:claude
+pane	devcycle	1	1	:*	1	✳ Recover work from tmux crash	:/home/rw/src/ai-dev-cycle-framework	1	claude	:claude
+pane	joke	1	1	:*	1	✳ Create Claude Code joke app CLI	:/home/rw/src/joke	1	claude	:claude
+window	ai	1	:claude	1	:*	d63d,132x98,0,0,0	:
+window	devcycle	1	:claude	1	:*	d63e,132x98,0,0,1	:
+window	joke	1	:claude	1	:*	d63f,132x98,0,0,2	:
+state	joke	
