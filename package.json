@@ -1,0 +1,21 @@
+{
+  "name": "fake-claude",
+  "version": "1.0.0",
+  "description": "Pretend to be working hard with Claude Code 🤫",
+  "main": "src/index.ts",
+  "bin": {
+    "fake-claude": "./bin/fake-claude.js"
+  },
+  "scripts": {
+    "start": "npx tsx src/index.ts",
+    "dev": "npx tsx src/index.ts"
+  },
+  "keywords": ["cli", "joke", "claude", "fake", "productivity"],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^25.5.0",
+    "tsx": "^4.21.0",
+    "typescript": "^6.0.2"
+  }
+}
