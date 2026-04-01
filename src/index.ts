@@ -22,7 +22,7 @@ function printHeader(): void {
   const cwd = process.cwd();
   printDisclaimer();
   console.log('\x1b[2m╭────────────────────────────────────────────────╮\x1b[0m');
-  console.log('\x1b[2m│\x1b[0m \x1b[35m◇\x1b[0m \x1b[1mDefinitely Real AI\x1b[0m              \x1b[2mv0.0.lol\x1b[0m \x1b[2m│\x1b[0m');
+  console.log('\x1b[2m│\x1b[0m \x1b[35m◇\x1b[0m \x1b[1mDefinitely Real AI\x1b[0m                 \x1b[2mv0.0.lol\x1b[0m \x1b[2m│\x1b[0m');
   console.log('\x1b[2m│\x1b[0m                                                \x1b[2m│\x1b[0m');
   console.log(`\x1b[2m│\x1b[0m \x1b[2m${cwd.padEnd(46)}\x1b[0m \x1b[2m│\x1b[0m`);
   console.log('\x1b[2m╰────────────────────────────────────────────────╯\x1b[0m');
