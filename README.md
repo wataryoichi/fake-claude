@@ -7,7 +7,7 @@
 
 A terminal busy-work simulator for pretending to be productive 🤫
 
-![fake-claude demo](https://github.com/wataryoichi/fake-claude/raw/main/demo.gif)
+![fake-claude demo](https://github.com/wataryoichi/fake-claude/raw/main/demo.gif?v=2)
 
 ## Install
 
